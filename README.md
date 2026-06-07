@@ -48,6 +48,17 @@
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 </div>
+---
+
+## 📊 Stats
+
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=qqsaeedpp&theme=dark" alt="GitHub Profile Summary" style="margin-bottom: 10px;" /><br>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=qqsaeedpp&layout=compact&theme=dark" style="margin:0 10px;"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=qqsaeedpp&theme=dark" style="margin:0 10px;"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=qqsaeedpp&theme=dark" style="margin:0 10px;"/>
+</div>
+
 
 ---
 
