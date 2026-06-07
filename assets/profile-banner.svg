@@ -36,7 +36,7 @@
 
   <!-- Subtitle -->
   <text x="425" y="145" fill="#8B949E" font-size="18" font-family="Arial">
-    Website Developer & Telegram Bot Developer with Python
+    Website Developer &amp; Telegram Bot Developer with Python
   </text>
 
   <!-- University -->
@@ -64,5 +64,5 @@
   <text x="90" y="230" fill="#F0F6FC" font-size="20" font-family="Arial" font-weight="bold">Telegram Bots</text>
 
   <text x="960" y="210" fill="#8B949E" font-size="14" font-family="Arial">Focus</text>
-  <text x="960" y="230" fill="#F0F6FC" font-size="20" font-family="Arial" font-weight="bold">Python & Web</text>
+  <text x="960" y="230" fill="#F0F6FC" font-size="20" font-family="Arial" font-weight="bold">Python &amp; Web</text>
 </svg>
