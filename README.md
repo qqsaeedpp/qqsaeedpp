@@ -1,10 +1,6 @@
 <div align="center">
-  <img src="./assets/profile-banner.svg" alt="Profile Banner" width="100%" />
+  <img src="https://raw.githubusercontent.com/qqsaeedpp/qqsaeedpp/main/assets/profile-banner.svg" alt="Profile Banner" width="100%" />
 </div>
-
-<br>
-
-<div align="center">
 
 # Mohammad Saeed Babaei
 
