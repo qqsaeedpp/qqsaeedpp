@@ -1,0 +1,68 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="320" rx="24" fill="#0D1117"/>
+
+  <!-- Background glow -->
+  <circle cx="180" cy="70" r="120" fill="#1F6FEB" fill-opacity="0.08"/>
+  <circle cx="1030" cy="260" r="160" fill="#2EA043" fill-opacity="0.08"/>
+  <circle cx="600" cy="40" r="100" fill="#58A6FF" fill-opacity="0.05"/>
+
+  <!-- Decorative blocks left -->
+  <rect x="60" y="60" width="18" height="18" rx="4" fill="#2EA043"/>
+  <rect x="85" y="85" width="18" height="18" rx="4" fill="#1F6FEB"/>
+  <rect x="110" y="60" width="18" height="18" rx="4" fill="#2EA043"/>
+  <rect x="135" y="85" width="18" height="18" rx="4" fill="#1F6FEB"/>
+  <rect x="160" y="60" width="18" height="18" rx="4" fill="#2EA043"/>
+  <rect x="185" y="85" width="18" height="18" rx="4" fill="#1F6FEB"/>
+
+  <!-- Decorative blocks right -->
+  <rect x="1030" y="70" width="18" height="18" rx="4" fill="#1F6FEB"/>
+  <rect x="1055" y="95" width="18" height="18" rx="4" fill="#2EA043"/>
+  <rect x="1080" y="70" width="18" height="18" rx="4" fill="#1F6FEB"/>
+  <rect x="1105" y="95" width="18" height="18" rx="4" fill="#2EA043"/>
+  <rect x="1130" y="70" width="18" height="18" rx="4" fill="#1F6FEB"/>
+
+  <!-- Central card -->
+  <rect x="255" y="50" width="690" height="220" rx="24" fill="#161B22" stroke="#30363D"/>
+
+  <!-- Avatar circle -->
+  <circle cx="355" cy="125" r="44" fill="#1F6FEB"/>
+  <circle cx="355" cy="125" r="37" fill="#0D1117"/>
+  <text x="355" y="133" text-anchor="middle" fill="#58A6FF" font-size="26" font-family="Arial" font-weight="bold">MS</text>
+
+  <!-- Name -->
+  <text x="425" y="110" fill="#F0F6FC" font-size="32" font-family="Arial" font-weight="bold">
+    Mohammad Saeed Babaei
+  </text>
+
+  <!-- Subtitle -->
+  <text x="425" y="145" fill="#8B949E" font-size="18" font-family="Arial">
+    Website Developer & Telegram Bot Developer with Python
+  </text>
+
+  <!-- University -->
+  <text x="425" y="175" fill="#58A6FF" font-size="16" font-family="Arial">
+    Islamic Azad University Student
+  </text>
+
+  <!-- Contact -->
+  <text x="425" y="205" fill="#2EA043" font-size="16" font-family="Arial">
+    Telegram: @qqsaeedpp
+  </text>
+
+  <!-- Skills cards -->
+  <rect x="425" y="225" width="140" height="30" rx="15" fill="#0D1117" stroke="#1F6FEB"/>
+  <text x="495" y="245" text-anchor="middle" fill="#58A6FF" font-size="14" font-family="Arial">Python</text>
+
+  <rect x="580" y="225" width="160" height="30" rx="15" fill="#0D1117" stroke="#2EA043"/>
+  <text x="660" y="245" text-anchor="middle" fill="#2EA043" font-size="14" font-family="Arial">Telegram Bots</text>
+
+  <rect x="755" y="225" width="160" height="30" rx="15" fill="#0D1117" stroke="#8B949E"/>
+  <text x="835" y="245" text-anchor="middle" fill="#C9D1D9" font-size="14" font-family="Arial">Web Development</text>
+
+  <!-- Side labels -->
+  <text x="90" y="210" fill="#8B949E" font-size="14" font-family="Arial">Projects</text>
+  <text x="90" y="230" fill="#F0F6FC" font-size="20" font-family="Arial" font-weight="bold">Telegram Bots</text>
+
+  <text x="960" y="210" fill="#8B949E" font-size="14" font-family="Arial">Focus</text>
+  <text x="960" y="230" fill="#F0F6FC" font-size="20" font-family="Arial" font-weight="bold">Python & Web</text>
+</svg>
