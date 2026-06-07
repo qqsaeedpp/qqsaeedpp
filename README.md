@@ -1,8 +1,18 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" alt="snake" />
-  <br>
-  <img alt="Visitors" src="https://komarev.com/ghpvc/?username=qqsaeedpp&label=Profile%20Visits&style=for-the-badge" />
-  <br>
+  <img src="./assets/profile-banner.svg" alt="Profile Banner" width="100%" />
+</div>
+
+<br>
+
+<div align="center">
+
+# Mohammad Saeed Babaei
+
+### Website Developer & Telegram Bot Developer with Python  
+### Islamic Azad University Student
+
+<img alt="Visitors" src="https://komarev.com/ghpvc/?username=qqsaeedpp&label=Profile%20Visits&style=for-the-badge" />
+
 </div>
 
 <h1 align="center">سلام، من محمد سعید بابایی هستم 👋</h1>
