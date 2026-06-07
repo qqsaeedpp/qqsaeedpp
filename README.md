@@ -4,16 +4,7 @@
 
 <br>
 
-<div align="center">
 
-# Mohammad Saeed Babaei
-
-### Website Developer & Telegram Bot Developer with Python  
-### Islamic Azad University Student
-
-<img alt="Visitors" src="https://komarev.com/ghpvc/?username=qqsaeedpp&label=Profile%20Visits&style=for-the-badge" />
-
-</div>
 
 <h1 align="center">سلام، من محمد سعید بابایی هستم 👋</h1>
 
