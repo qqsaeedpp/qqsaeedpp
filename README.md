@@ -6,34 +6,34 @@
 
 
 
-<h1 align="center">سلام، من محمد سعید بابایی هستم 👋</h1>
+<h1 align="center">Hi, I'm Mohammad Saeed Babaei 👋</h1>
 
-<h3 align="center">دانشجوی دانشگاه آزاد | توسعه‌دهنده وب‌سایت و ربات‌های تلگرام با Python</h3>
-
----
-
-## 👨‍💻 درباره من
-
-من **محمد سعید بابایی** هستم؛ دانشجوی دانشگاه آزاد و علاقه‌مند به توسعه نرم‌افزار، طراحی سیستم‌های کاربردی و ساخت ربات‌های هوشمند تلگرام.
-تمرکز اصلی من روی توسعه ربات‌های تلگرام با زبان **Python**، طراحی پنل‌های مدیریتی، اتوماسیون فرایندها و ساخت ابزارهایی است که بتوانند کارهای روزمره، فروش، مدیریت کاربران و خدمات آنلاین را ساده‌تر و حرفه‌ای‌تر کنند.
-
-در پروژه‌هایم تلاش می‌کنم علاوه بر عملکرد درست، به ساختار تمیز کد، تجربه کاربری مناسب، امنیت، مقیاس‌پذیری و قابلیت توسعه در آینده هم توجه داشته باشم.
+<h3 align="center">Islamic Azad University Student | Website and Telegram Bot Developer with Python</h3>
 
 ---
 
-## 🚀 حوزه‌های فعالیت
+## 👨‍💻 About Me
 
-- توسعه ربات‌های تلگرام با Python
-- طراحی و پیاده‌سازی پنل مدیریت برای ربات‌ها
-- ساخت سیستم‌های فروش و ثبت سفارش در تلگرام
-- اتصال ربات‌ها به دیتابیس و سرویس‌های جانبی
-- طراحی وب‌سایت و ابزارهای تحت وب
-- خودکارسازی فرایندهای تکراری و مدیریتی
-- توسعه پروژه‌های شخصی و کاربردی برای کسب‌وکارها
+I am **Mohammad Saeed Babaei**; a student at Islamic Azad University and passionate about software development, designing practical systems, and building smart Telegram bots.
+My main focus is on developing Telegram bots with **Python**, designing admin panels, automating processes, and building tools that can make daily tasks, sales, user management, and online services simpler and more professional.
+
+In my projects, I try to pay attention not only to proper functionality, but also to clean code structure, good user experience, security, scalability, and future expandability.
 
 ---
 
-## 🛠️ مهارت‌ها و ابزارها
+## 🚀 Fields of Activity
+
+- Developing Telegram bots with Python
+- Designing and implementing admin panels for bots
+- Building sales and order registration systems in Telegram
+- Connecting bots to databases and external services
+- Designing websites and web-based tools
+- Automating repetitive and management processes
+- Developing personal and practical projects for businesses
+
+---
+
+## 🛠 Skills and Tools
 
 <div align="center">
 
@@ -48,8 +48,8 @@
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 </div>
----
 
+---
 ## 📊 Stats
 
 <div align="center">
@@ -58,39 +58,37 @@
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=qqsaeedpp&theme=dark" style="margin:0 10px;"/>
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=qqsaeedpp&theme=dark" style="margin:0 10px;"/>
 </div>
+---
+
+## 🤖 My Main Focus in Telegram Bot Development
+
+A Telegram bot is not just a simple tool for sending messages; if designed properly, it can become a complete system for managing sales, support, orders, payments, user memberships, and service management.
+
+In bot development, I usually work on these areas:
+
+- Designing a simple and understandable user menu
+- Building an admin panel for full bot control
+- Registering and managing orders
+- Connecting to databases for data storage
+- Managing users, wallet, subscriptions, and access levels
+- Designing inline buttons and improving user experience
+- Implementing notification systems and automatic messages
+- Optimizing code structure for easier future development
+
+---
+
+## 📌 My Goal
+
+My goal is to use programming to build tools that are real and usable; tools that can create value for businesses, channels, stores, and regular users.
+
+I am always learning and improving my skills, and I try to make every new project cleaner, more professional, and more complete than the previous one.
+
+---
 
 
 ---
 
-## 🤖 تمرکز اصلی من در توسعه ربات‌های تلگرام
-
-ربات تلگرام فقط یک ابزار ساده برای ارسال پیام نیست؛ اگر درست طراحی شود، می‌تواند به یک سیستم کامل برای مدیریت فروش، پشتیبانی، سفارش‌گیری، پرداخت، عضویت کاربران و مدیریت خدمات تبدیل شود.
-
-در توسعه ربات‌ها معمولاً روی این بخش‌ها کار می‌کنم:
-
-- طراحی منوی کاربری ساده و قابل فهم
-- ساخت پنل مدیریت برای کنترل کامل ربات
-- ثبت و مدیریت سفارش‌ها
-- اتصال به دیتابیس برای ذخیره‌سازی اطلاعات
-- مدیریت کاربران، کیف پول، اشتراک و سطح دسترسی
-- طراحی دکمه‌های شیشه‌ای و تجربه کاربری بهتر
-- پیاده‌سازی سیستم اطلاع‌رسانی و پیام‌های خودکار
-- بهینه‌سازی ساختار کد برای توسعه راحت‌تر در آینده
-
----
-
-## 📌 هدف من
-
-هدف من این است که با استفاده از برنامه‌نویسی، ابزارهایی بسازم که واقعی و قابل استفاده باشند؛ ابزارهایی که بتوانند برای کسب‌وکارها، کانال‌ها، فروشگاه‌ها و کاربران عادی ارزش ایجاد کنند.
-
-همیشه در حال یادگیری و بهتر کردن مهارت‌هایم هستم و تلاش می‌کنم هر پروژه جدید، از پروژه قبلی تمیزتر، حرفه‌ای‌تر و کامل‌تر باشد.
-
----
-
-
----
-
-## 📫 راه ارتباطی
+## 📫 Contact Me
 
 <div align="center">
 
@@ -102,7 +100,7 @@
 ---
 
 <div align="center">
-  <b>با علاقه به یادگیری، ساختن و توسعه پروژه‌های کاربردی</b>
+  <b>With passion for learning, building, and developing practical projects</b>
   <br>
   <sub>Made with ❤️ by Mohammad Saeed Babaei</sub>
 </div>
