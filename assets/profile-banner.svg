@@ -1,68 +1,196 @@
 <svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1200" height="320" rx="24" fill="#0D1117"/>
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#07111f"/>
+      <stop offset="50%" stop-color="#0d1628"/>
+      <stop offset="100%" stop-color="#08101c"/>
+    </linearGradient>
 
-  <!-- Background glow -->
-  <circle cx="180" cy="70" r="120" fill="#1F6FEB" fill-opacity="0.08"/>
-  <circle cx="1030" cy="260" r="160" fill="#2EA043" fill-opacity="0.08"/>
-  <circle cx="600" cy="40" r="100" fill="#58A6FF" fill-opacity="0.05"/>
+    <linearGradient id="cardGrad" x1="255" y1="50" x2="945" y2="270" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#151b25"/>
+      <stop offset="100%" stop-color="#10161f"/>
+    </linearGradient>
 
-  <!-- Decorative blocks left -->
-  <rect x="60" y="60" width="18" height="18" rx="4" fill="#2EA043"/>
-  <rect x="85" y="85" width="18" height="18" rx="4" fill="#1F6FEB"/>
-  <rect x="110" y="60" width="18" height="18" rx="4" fill="#2EA043"/>
-  <rect x="135" y="85" width="18" height="18" rx="4" fill="#1F6FEB"/>
-  <rect x="160" y="60" width="18" height="18" rx="4" fill="#2EA043"/>
-  <rect x="185" y="85" width="18" height="18" rx="4" fill="#1F6FEB"/>
+    <linearGradient id="scanGrad" x1="0" y1="0" x2="300" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#58A6FF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#58A6FF" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#58A6FF" stop-opacity="0"/>
+    </linearGradient>
 
-  <!-- Decorative blocks right -->
-  <rect x="1030" y="70" width="18" height="18" rx="4" fill="#1F6FEB"/>
-  <rect x="1055" y="95" width="18" height="18" rx="4" fill="#2EA043"/>
-  <rect x="1080" y="70" width="18" height="18" rx="4" fill="#1F6FEB"/>
-  <rect x="1105" y="95" width="18" height="18" rx="4" fill="#2EA043"/>
-  <rect x="1130" y="70" width="18" height="18" rx="4" fill="#1F6FEB"/>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+    </filter>
 
-  <!-- Central card -->
-  <rect x="255" y="50" width="690" height="220" rx="24" fill="#161B22" stroke="#30363D"/>
+    <filter id="cardShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="18" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
 
-  <!-- Avatar circle -->
-  <circle cx="355" cy="125" r="44" fill="#1F6FEB"/>
-  <circle cx="355" cy="125" r="37" fill="#0D1117"/>
-  <text x="355" y="133" text-anchor="middle" fill="#58A6FF" font-size="26" font-family="Arial" font-weight="bold">MS</text>
+    <filter id="smallGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="320" rx="24" fill="url(#bgGrad)"/>
+
+  <!-- Ambient animated glows -->
+  <g opacity="0.9">
+    <circle cx="170" cy="85" r="90" fill="#1F6FEB" fill-opacity="0.16" filter="url(#softGlow)">
+      <animate attributeName="cx" values="170;210;170" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="85;65;85" dur="7s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="90;110;90" dur="7s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="1020" cy="245" r="110" fill="#2EA043" fill-opacity="0.14" filter="url(#softGlow)">
+      <animate attributeName="cx" values="1020;980;1020" dur="9s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="245;220;245" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="110;130;110" dur="8s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="600" cy="40" r="70" fill="#58A6FF" fill-opacity="0.10" filter="url(#softGlow)">
+      <animate attributeName="cy" values="40;60;40" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="70;85;70" dur="6s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Floating decorative squares: left -->
+  <g>
+    <rect x="55" y="72" width="18" height="18" rx="4" fill="#2EA043">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -10; 0 0" dur="3.5s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="83" y="96" width="18" height="18" rx="4" fill="#1F6FEB">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 8; 0 0" dur="4.2s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="111" y="68" width="18" height="18" rx="4" fill="#2EA043">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -12; 0 0" dur="4.8s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="139" y="96" width="18" height="18" rx="4" fill="#58A6FF">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 10; 0 0" dur="3.8s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="167" y="72" width="18" height="18" rx="4" fill="#2EA043">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -7; 0 0" dur="4.6s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="195" y="95" width="18" height="18" rx="4" fill="#1F6FEB">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 9; 0 0" dur="4.1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- Floating decorative squares: right -->
+  <g>
+    <rect x="1015" y="74" width="18" height="18" rx="4" fill="#1F6FEB">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -10; 0 0" dur="3.9s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="1044" y="100" width="18" height="18" rx="4" fill="#2EA043">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 8; 0 0" dur="4.4s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="1073" y="73" width="18" height="18" rx="4" fill="#58A6FF">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -11; 0 0" dur="4.9s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="1102" y="100" width="18" height="18" rx="4" fill="#2EA043">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 10; 0 0" dur="3.6s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="1131" y="74" width="18" height="18" rx="4" fill="#1F6FEB">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -8; 0 0" dur="4.7s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- Side captions -->
+  <text x="70" y="205" fill="#8B949E" font-size="14" font-family="Arial">Projects</text>
+  <text x="70" y="230" fill="#F0F6FC" font-size="22" font-family="Arial" font-weight="bold">Telegram Bots</text>
+
+  <text x="960" y="205" fill="#8B949E" font-size="14" font-family="Arial">Focus</text>
+  <text x="960" y="230" fill="#F0F6FC" font-size="22" font-family="Arial" font-weight="bold">Python &amp; Web</text>
+
+  <!-- Main card -->
+  <g filter="url(#cardShadow)">
+    <rect x="255" y="50" width="690" height="220" rx="26" fill="url(#cardGrad)" stroke="#2c3440" stroke-width="1.2"/>
+  </g>
+
+  <!-- Animated top line inside card -->
+  <rect x="285" y="74" width="630" height="2" rx="1" fill="#1b2432"/>
+  <rect x="285" y="74" width="140" height="2" rx="1" fill="url(#scanGrad)">
+    <animate attributeName="x" values="285;775;285" dur="4.5s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Avatar area -->
+  <g>
+    <circle cx="355" cy="128" r="52" fill="#1F6FEB" fill-opacity="0.12" filter="url(#softGlow)">
+      <animate attributeName="r" values="52;60;52" dur="3.2s" repeatCount="indefinite"/>
+      <animate attributeName="fill-opacity" values="0.12;0.20;0.12" dur="3.2s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="355" cy="128" r="44" fill="#1F6FEB">
+      <animate attributeName="r" values="44;46;44" dur="3.2s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="355" cy="128" r="36" fill="#0D1117"/>
+    <text x="355" y="136" text-anchor="middle" fill="#58A6FF" font-size="26" font-family="Arial" font-weight="bold">MS</text>
+  </g>
 
   <!-- Name -->
-  <text x="425" y="110" fill="#F0F6FC" font-size="32" font-family="Arial" font-weight="bold">
+  <text x="425" y="112" fill="#F0F6FC" font-size="32" font-family="Arial" font-weight="bold">
     Mohammad Saeed Babaei
   </text>
 
-  <!-- Subtitle -->
-  <text x="425" y="145" fill="#8B949E" font-size="18" font-family="Arial">
+  <!-- Role -->
+  <text x="425" y="147" fill="#A7B1BC" font-size="18" font-family="Arial">
     Website Developer &amp; Telegram Bot Developer with Python
   </text>
 
   <!-- University -->
-  <text x="425" y="175" fill="#58A6FF" font-size="16" font-family="Arial">
+  <text x="425" y="177" fill="#66B3FF" font-size="16" font-family="Arial">
     Islamic Azad University Student
   </text>
 
-  <!-- Contact -->
-  <text x="425" y="205" fill="#2EA043" font-size="16" font-family="Arial">
+  <!-- Telegram -->
+  <text x="425" y="206" fill="#39D353" font-size="16" font-family="Arial">
     Telegram: @qqsaeedpp
   </text>
 
-  <!-- Skills cards -->
-  <rect x="425" y="225" width="140" height="30" rx="15" fill="#0D1117" stroke="#1F6FEB"/>
-  <text x="495" y="245" text-anchor="middle" fill="#58A6FF" font-size="14" font-family="Arial">Python</text>
+  <!-- Skill pills -->
+  <g>
+    <g>
+      <rect x="425" y="224" width="135" height="32" rx="16" fill="#0B1220" stroke="#1F6FEB"/>
+      <circle cx="442" cy="240" r="4" fill="#58A6FF" filter="url(#smallGlow)">
+        <animate attributeName="fill-opacity" values="1;0.4;1" dur="2.5s" repeatCount="indefinite"/>
+      </circle>
+      <text x="492" y="245" text-anchor="middle" fill="#58A6FF" font-size="14" font-family="Arial">Python</text>
+    </g>
 
-  <rect x="580" y="225" width="160" height="30" rx="15" fill="#0D1117" stroke="#2EA043"/>
-  <text x="660" y="245" text-anchor="middle" fill="#2EA043" font-size="14" font-family="Arial">Telegram Bots</text>
+    <g>
+      <rect x="575" y="224" width="170" height="32" rx="16" fill="#0B1220" stroke="#2EA043"/>
+      <circle cx="592" cy="240" r="4" fill="#39D353" filter="url(#smallGlow)">
+        <animate attributeName="fill-opacity" values="1;0.35;1" dur="2.2s" repeatCount="indefinite"/>
+      </circle>
+      <text x="660" y="245" text-anchor="middle" fill="#39D353" font-size="14" font-family="Arial">Telegram Bots</text>
+    </g>
 
-  <rect x="755" y="225" width="160" height="30" rx="15" fill="#0D1117" stroke="#8B949E"/>
-  <text x="835" y="245" text-anchor="middle" fill="#C9D1D9" font-size="14" font-family="Arial">Web Development</text>
+    <g>
+      <rect x="760" y="224" width="170" height="32" rx="16" fill="#0B1220" stroke="#8B949E"/>
+      <circle cx="777" cy="240" r="4" fill="#C9D1D9" filter="url(#smallGlow)">
+        <animate attributeName="fill-opacity" values="1;0.45;1" dur="2.8s" repeatCount="indefinite"/>
+      </circle>
+      <text x="845" y="245" text-anchor="middle" fill="#C9D1D9" font-size="14" font-family="Arial">Web Development</text>
+    </g>
+  </g>
 
-  <!-- Side labels -->
-  <text x="90" y="210" fill="#8B949E" font-size="14" font-family="Arial">Projects</text>
-  <text x="90" y="230" fill="#F0F6FC" font-size="20" font-family="Arial" font-weight="bold">Telegram Bots</text>
-
-  <text x="960" y="210" fill="#8B949E" font-size="14" font-family="Arial">Focus</text>
-  <text x="960" y="230" fill="#F0F6FC" font-size="20" font-family="Arial" font-weight="bold">Python &amp; Web</text>
+  <!-- Tiny floating dots -->
+  <g opacity="0.7">
+    <circle cx="240" cy="45" r="2" fill="#58A6FF">
+      <animate attributeName="cy" values="45;38;45" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="970" cy="60" r="2" fill="#39D353">
+      <animate attributeName="cy" values="60;52;60" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="930" cy="275" r="2" fill="#58A6FF">
+      <animate attributeName="cy" values="275;268;275" dur="4.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="4.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="210" cy="270" r="2" fill="#39D353">
+      <animate attributeName="cy" values="270;262;270" dur="4.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="4.2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
 </svg>
